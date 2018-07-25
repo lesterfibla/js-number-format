@@ -22,6 +22,8 @@ npm install js-number-format
 Llamar el script donde se quiera usar:
 
 ```
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script>window.exports = window;</script>
 <script src="your/path/to/dist/js-number-format.js"></script>
 ```
 
