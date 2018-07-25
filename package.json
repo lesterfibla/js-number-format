@@ -1,0 +1,33 @@
+{
+  "name": "js-number-format",
+  "version": "0.1.0",
+  "description": "Conjunto de funciones javascript para mostrar números con formato",
+  "main": "dist/js-number-format.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "mocha --require babel-polyfill --require babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lesterfibla/js-number-format.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "number_format",
+    "phpjs"
+  ],
+  "author": "Lester Fibla Saavedra <lesterfibla@gmail.com> (https://lesterfibla.com/pro)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lesterfibla/js-number-format/issues"
+  },
+  "homepage": "https://github.com/lesterfibla/js-number-format#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
